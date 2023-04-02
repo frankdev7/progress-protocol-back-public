@@ -19,12 +19,12 @@ Alchemy [here](https://www.alchemy.com/)
 
 # APIS
 
-## Mint (Inscribirse a un curso)
+# Mint (Inscribirse a un curso)
 
 ```http
 POST /progress/mint
 ```
-## Request
+### Request
 
 ```javascript
 {
@@ -37,7 +37,7 @@ Es atributo `address` es la direccion del usuario (wallet)
 
 Es atributo `courseAddresss` es la direccion del Smart Contract del curso en Polygon
 
-## Response 201
+### Response 201
 
 Indica que el alumno se inscribio correctamente en el curso
 
@@ -50,7 +50,7 @@ Indica que el alumno se inscribio correctamente en el curso
 Es atributo `transaction` es el hash de la trasaccion en la blockchain 
 
 
-## Response 400
+### Response 400
 
 Indica que el alumno ya esta incrito en el curso y no puede hacerlo nuevamente
 
@@ -66,12 +66,12 @@ Es atributo `statusCode` es el codigo http
 Es atributo `message` es el mensaje de respuesta
 
 
-## Quiz (tomar una prueba)
+# Quiz (tomar una prueba)
 
 ```http
 POST /progress/quiz
 ```
-## Request
+### Request
 
 ```javascript
 {
@@ -87,7 +87,7 @@ Es atributo `courseAddresss` es la direccion del Smart Contract del curso en Pol
 
 Es atributo `points` es la cantidad de puntos que hizo en la prueba
 
-## Response 201
+### Response 201
 
 Indica que el alumno completo la prueba y por lo tanto sube de nivel
 
