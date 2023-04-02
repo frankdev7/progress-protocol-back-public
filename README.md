@@ -33,9 +33,9 @@ POST /progress/mint
 }
 ```
 
-Es atributo `address` es la direccion del usuario (wallet)
+El atributo `address` es la direccion del usuario (wallet)
 
-Es atributo `courseAddresss` es la direccion del Smart Contract del curso en Polygon
+El atributo `courseAddresss` es la direccion del Smart Contract del curso en Polygon
 
 ### Response 201
 
@@ -47,7 +47,7 @@ Indica que el alumno se inscribio correctamente en el curso
 }
 ```
 
-Es atributo `transaction` es el hash de la trasaccion en la blockchain 
+El atributo `transaction` es el hash de la trasaccion en la blockchain 
 
 
 ### Response 400
@@ -61,9 +61,9 @@ Indica que el alumno ya esta incrito en el curso y no puede hacerlo nuevamente
 }
 ```
 
-Es atributo `statusCode` es el codigo http
+El atributo `statusCode` es el codigo http
 
-Es atributo `message` es el mensaje de respuesta
+El atributo `message` es el mensaje de respuesta
 
 
 # Quiz (tomar una prueba)
@@ -81,11 +81,11 @@ POST /progress/quiz
 }
 ```
 
-Es atributo `address` es la direccion del usuario (wallet)
+El atributo `address` es la direccion del usuario (wallet)
 
-Es atributo `courseAddresss` es la direccion del Smart Contract del curso en Polygon
+El atributo `courseAddresss` es la direccion del Smart Contract del curso en Polygon
 
-Es atributo `points` es la cantidad de puntos que hizo en la prueba
+El atributo `points` es la cantidad de puntos que hizo en la prueba
 
 ### Response 201
 
@@ -97,7 +97,7 @@ Indica que el alumno completo la prueba y por lo tanto sube de nivel
 }
 ```
 
-Es atributo `transaction` es el hash de la trasaccion en la blockchain 
+El atributo `transaction` es el hash de la trasaccion en la blockchain 
 
 
 
