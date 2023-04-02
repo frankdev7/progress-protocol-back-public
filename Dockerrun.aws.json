@@ -1,0 +1,25 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "frank7dev/postgress-protocol-back:1.0.0"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 3000
+    }
+  ],
+  "Environment": [
+    {
+      "Name": "MONGODB_URI",
+      "Value": "mongodb+srv://frank:frank123@progress-protocol.nxne4dz.mongodb.net/test?retryWrites=true&w=majority"
+    },
+    {
+      "Name": "ALCHEMY_PROVIDER",
+      "Value": "https://polygon-mumbai.g.alchemy.com/v2/x5CxkSPFltlV8IbifVwoFjkmIKrLbMDK"
+    },
+    {
+      "Name": "PRIVATE_KEY",
+      "Value": "95fa12e7226ade7d7ed677e2bac37c1c74085be9c6cd239716516aea957dc95f"
+    }
+  ]
+}
